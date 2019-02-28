@@ -8,8 +8,8 @@ I created this boilerplate to help speed up my kickstart time for single page la
 - `Object-encode` form obfuscating the user's details that gets stored in the local storage.
 
 # API
- Registration - /api/auth/register
- Login - /api/auth/login
+ - Registration - /api/auth/register
+ - Login - /api/auth/login
  
 # Routes
 WIth JWT and SPAs, routes/api/ folder is used to register routes as opposed to the default routes/web for laravel
