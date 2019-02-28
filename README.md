@@ -24,7 +24,7 @@ the user's details that gets stored in the local storage.
 # Create dummy accounts to use in interacting with the app
 - Use `php artisan db:seed`
 
-# Set encryption key to be used to encrypt the object containing the user's details and token upon login
+**Set encryption key to be used to encrypt the object containing the user's details and token upon login**
  Edit the encryption key variable in the the store.js file 
 
 # Start application
