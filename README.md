@@ -1,11 +1,21 @@
 # Laravel-Vue-Boilerplate
 I created this boilerplate to help speed up my kickstart time for single page laravel projects that uses authentication.
 
-It implements JWT for authentication, Vuex for state management, Vue-Router for routing and `Object-encode` form obfuscating 
-the user's details that gets stored in the local storage.
+# How it works
+- `JWT` for authentication for login and registration
+- `Vuex` for state management 
+- `Vue-Router` for routing 
+- `Object-encode` form obfuscating the user's details that gets stored in the local storage.
+
+# API
+ Registration - /api/auth/register
+ Login - /api/auth/login
+ 
+# Routes
+WIth JWT and SPAs, routes/api/ folder is used to register routes as opposed to the default routes/web for laravel
 
 # Requirements
-- [Laraval server requirements](https://laravel.com/docs/5.7#server-requirements)
+- [Laraval server requirements for version 5.7](https://laravel.com/docs/5.7#server-requirements)
 - [XAMPP](https://www.apachefriends.org/index.html)
 
 # Setting up the project
@@ -33,4 +43,5 @@ the user's details that gets stored in the local storage.
 
 Open a terminal and run `npm run dev` then run `php artisan serve` in another
 
-
+### Credit
+Front login / register page is based on a template from [Colorlib](https://colorlib.com/wp/)
