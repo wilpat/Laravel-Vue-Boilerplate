@@ -43,5 +43,7 @@ WIth JWT and SPAs, routes/api/ folder is used to register routes as opposed to t
 
 Open a terminal and run `npm run dev` then run `php artisan serve` in another
 
-### Credit
-Front login / register page is based on a template from [Colorlib](https://colorlib.com/wp/)
+### Credits
+Frontend design of login / register page is based on a template from [Colorlib](https://colorlib.com/wp/)
+
+Got questions? Shoot me a mail [here](mailto:wilpat456@gmail.com)
